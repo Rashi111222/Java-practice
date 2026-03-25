@@ -7,13 +7,17 @@ public class FibonacciSeries{
         Scanner sc=new Scanner(System.in);
         System.out.println("How many terms till you want to print: ");
         n=sc.nextInt();
-        System.out.println(a);
-        System.out.println(b);
+
+        if(n>=1)
+            System.out.println(a);
+
+        if(n>=2)
+            System.out.println(b);
         for(int i=2;i<n;i++){
             c=a+b;
+            System.out.println(c);
             a=b;
             b=c;
-            System.out.println(c);
         }
     }
 }
