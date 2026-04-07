@@ -11,6 +11,6 @@ public class SumOdd {
                 sum+=i;
             }
         }
-        System.out.println("Sum of even number from "+n+" is :"+sum);
+        System.out.println("Sum of odd number from "+n+" is :"+sum);
     }
 }
