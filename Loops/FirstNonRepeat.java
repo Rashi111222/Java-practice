@@ -21,6 +21,6 @@ public class FirstNonRepeat{
             break;
         }
         }
-       
+       System.out.println("No non-repeating digit found");
     }
 }
