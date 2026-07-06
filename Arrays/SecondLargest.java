@@ -16,8 +16,8 @@ public class SecondLargest {
             System.out.print(arr[i]+ " ");
         }
 
-        int max=-1,secondLargest=-1;
-        for(int i=0;i<arr.length;i++){
+        int max=arr[0],secondLargest=arr[0];
+        for(int i=1;i<arr.length;i++){
             if(arr[i]>max){
                 secondLargest=max;
                 max=arr[i];
